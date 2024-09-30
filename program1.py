@@ -20,6 +20,4 @@ class Solution:
             dfs(r, c - 1)  # left
             dfs(r, c + 1)  # right
 
-
-
     return 0
