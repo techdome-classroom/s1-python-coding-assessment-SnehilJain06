@@ -26,4 +26,3 @@ m, n = len(s), len(p)
 
     # Return False if the pattern doesn't match the string
     return False
-        return False
