@@ -25,4 +25,4 @@ def decode_message( s: str, p: str) -> bool:
                 return True
 
     # Return False if the pattern doesn't match the string
- return False
+        return False
