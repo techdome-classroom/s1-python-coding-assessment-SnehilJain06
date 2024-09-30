@@ -28,4 +28,4 @@ class Solution:
                     islands += 1  # Increment the island count
                     dfs(r, c)  # Start exploring the island
 
-        return islands
+return islands
