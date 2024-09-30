@@ -4,8 +4,8 @@ def decode_message( s: str, p: str) -> bool:
         m, n = len(s), len(p)
 
     # Create a DP table initialized to False
-    dp = [[False] * (n + 1) for _ in range(m + 1)]
-    dp[0][0] = True  # Empty pattern matches empty string
+        dp = [[False] * (n + 1) for _ in range(m + 1)]
+        dp[0][0] = True  # Empty pattern matches empty string
 
     # Handle patterns that start with '*' as they can match an empty string
     for j in range(1, n + 1):
