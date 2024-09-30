@@ -4,8 +4,8 @@ class Solution:
       if not grid:
             return 0
 
-        rows = len(grid)
-        cols = len(grid[0])
-        islands = 0
+    rows = len(grid)
+    cols = len(grid[0])
+    islands = 0
 
-        return 0
+    return 0
