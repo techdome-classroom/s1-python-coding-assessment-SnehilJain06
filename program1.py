@@ -29,4 +29,3 @@ class Solution:
                     dfs(r, c)  # Start exploring the island
 
         return islands
-    return 0
