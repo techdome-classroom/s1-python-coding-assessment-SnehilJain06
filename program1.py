@@ -8,8 +8,8 @@ class Solution:
     cols = len(grid[0])
     islands = 0
 
-     def dfs(r, c):
-        # Boundary check and stop if it's water or already visited
+    def dfs(r, c):
+    # Boundary check and stop if it's water or already visited
         if r < 0 or r >= rows or c < 0 or c >= cols or grid[r][c] == 'W':
             return
         # Mark the current land as visited
